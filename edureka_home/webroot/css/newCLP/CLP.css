@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+*, *:before, *:after {box-sizing:  border-box !important;}
+*{
+	outline:0;
+	text-decoration: none;
+}
+body{
+	background:#ffffff;
+}
+.group {
+    background: yellow;
+    width: 200px;
+    height: 500px;
+}
+.group .subgroup {
+    background: orange;
+    width: 150px;
+    height: 200px;
+}
+.affix-bottom {
+  position: absolute;
+}
+#sidebar.affix {
+    top: 60px;
+}
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>li>a:hover, 
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #563d7c;                 
+    text-decoration: none;          
+    background-color: transparent;  
+    border-left-color: #563d7c; 
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+}
+.course-name-clp{
+	background:#434343;
+}
+.course-title-container{
+	padding: 18px 15px;
+}
+.course-title-div > .title-div {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.course-title-div > .title-div > i {
+  color: #f37b11;
+  margin-right: 6px;
+}
+.course-title-div > .update-div {
+  color: #bbbbbb;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 25px;
+  position: relative;
+  vertical-align: super;
+}
+.course-title-div > .update-div > i {
+  color: #ba8404;
+  cursor: pointer;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.Wishlist-sec{}
+.Wishlist-sec > .Wishlist-icon-dev{}
+.Wishlist-sec > a > .Wishlist-icon-dev > .fa.fa-heart-o {
+  color: #bbbbbb;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor:pointer;
+}
+.Wishlist-sec > a > .Wishlist-icon-dev > .fa.fa-heart {
+  color: #eb4d4e;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor:pointer;
+}
+.Wishlist-sec > a > .Wishlist-div{
+	color: #bbbbbb;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Updated-course-info-div {
+  background: #fff none repeat scroll 0 0;
+  display: none;
+  left: -130px;
+  margin: 0 auto;
+  padding: 10px 8px 10px 10px;
+  position: absolute !important;
+  right: 0;
+  width: 368px;
+  z-index: 1;
+  border:1px solid #dedede;
+}
+.Updated-course-info-div > ul {
+  font-size: 12px;
+  list-style: none;
+  color:#444444;
+  padding: 0;
+}
+.Updated-course-info-div > ul > li:last-child{
+margin-bottom: 0;
+}
+.Updated-course-info-div > ul > li {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  position: relative;
+}
+.Updated-course-info-div > ul > li:after {
+  content: "\e9c2";
+  display: block;
+  position: absolute;
+  top: 1px;
+  color: #f0b118;
+  left: 0;
+  font-family: 'icomoon';
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:300px) and (max-width: 767px){}

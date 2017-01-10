@@ -1,0 +1,730 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no-padding{
+	padding:0px !important;
+}
+a{
+    text-decoration:none;
+}
+.newloginmodal {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width:450px !important;
+}
+.modal {
+  text-align: center;
+}
+a:hover{
+    text-decoration:none;
+}
+.modalclose {
+  font-size: 30px;
+  padding: 12px 20px !important;
+  color:#777777 !important;
+  opacity: 1;
+}
+.modalclose:hover {
+  color:#777777 !important;
+  opacity: 1;
+}
+.modal-content ul {
+  border-bottom: 0 none;
+  margin-bottom: 1px;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+.modal-content ul li a{
+	font-size:20px;
+	font-weight:600;
+	padding-bottom:15px;
+	border: medium none transparent !important;
+	color: #777777;
+}
+.modal-content ul li a:hover{
+	background:#ffffff;
+}
+.modal-content ul li:first-child a{
+	margin-right:100px;
+
+}
+.modal-content ul li.active a{
+	border: medium none transparent;
+	color: #3778b0 !important;
+}
+
+.modal-content ul li.active a span{
+	border-bottom:3px solid #3778b0;
+}
+.modal-content ul li a span{
+	padding-bottom:15px;
+}
+.loginmodal {
+  border-radius: 0;
+  min-height: 544px;
+  width: 445px;
+}
+.loginsec {
+  margin-top: 34px;
+  padding-left: 50px;
+}
+.input-wrapper {
+  display: block;
+  line-height: 14px;
+  margin: 0 0 20px 10px;
+  position: relative;
+}
+.labellogin {
+  color: #ababab;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  top: 14px;
+  padding: 0 2px;
+  pointer-events: none;
+  background: #fff;
+  -webkit-transition: -webkit-transform 110ms ease;
+  -moz-transition: -moz-transform 110ms ease;
+  -o-transition: -o-transform 110ms ease;
+  -ms-transition: -ms-transform 110ms ease;
+  transition: transform 110ms ease;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.inputlogin {
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputlogin:invalid + .labellogin {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.inputlogin:focus {
+  border-color: #7f7f7f;
+  color: #7f7f7f;
+}
+.inputlogin:focus + .labellogin {
+  color: #7f7f7f;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  font-size:11px;
+}
+.forgotpasssec {
+  display: inline-block;
+  margin: 5px 0 0 10px;
+}
+.forgotpass {
+  color: #3778b0;
+  font-size: 14px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.forgotpass:hover{
+	color:#3778b0;
+	font-size:14px;
+	pointer:cursor;
+}
+.startlearningbtn {
+  background: #3778b0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 36px;
+  padding: 13px 20px;
+}
+.showpass {
+  color: #a0a0a0;
+  font-size: 12px;
+  position: absolute;
+  right: 70px;
+  top: 13px;
+  cursor:pointer;
+}
+.showpass1 {
+  color: #a0a0a0;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 70px;
+  top: 13px;
+}
+.showpass2 {
+  color: #a0a0a0;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 70px;
+  top: 13px;
+}
+.loginerror {
+  border: 1px solid #f14950 !important;
+}
+.loginerrortextemail {
+  color: #f14950;
+  display: block;
+  font-size: 11px;
+}
+.loginerrortextpass {
+  color: #f14950;
+  display: block;
+  font-size: 11px;
+}
+.forgotpasssection{
+	margin-top: 34px;
+  padding-left: 50px;
+  display: none;
+ }
+.inputforgotpass {
+  border: 1px solid #bcbcbc;
+  border-radius: 0;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputforgotpass:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputforgotpassemail {
+  border: 1px solid #bcbcbc;
+  border-radius: 0;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputforgotpassemail:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputforgotpasspwd {
+  border: 1px solid #bcbcbc;
+  border-radius: 0;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputforgotpasspwd:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.changeemail {
+  color: #a0a0a0;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 80px;
+  top: 12px;
+}
+.resendcode {
+  color: #a0a0a0;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 80px;
+  top: 12px;
+}
+.forgotpass-wrapper {
+  margin: 0 0 25px 10px;
+  position: relative;
+}
+.resetpassbtn {
+  background: #3778b0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 153px;
+  padding: 15px 20px;
+}
+.loginemailsuccess {
+  color: #1ead77;
+  display: none;
+  font-size: 13px;
+  margin-bottom: 10px;
+  padding: 0 54px 0 10px;
+}
+.signupsecsec{
+	margin-top: 34px;
+  padding-left: 50px;
+}
+.inputsignup1{
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputsignup1:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputsignup1:invalid + .labellogin {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.inputsignup1:focus + .labellogin {
+  color: #7f7f7f;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  font-size:11px;
+}
+.inputsignup2{
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputsignup2:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputsignup2:invalid + .labellogin {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.inputsignup2:focus + .labellogin {
+  color: #7f7f7f;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  font-size:11px;
+}
+.inputsignup3{
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputsignup3:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputsignup3:invalid + .labellogin {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.inputsignup3:focus + .labellogin {
+  color: #7f7f7f;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  font-size:11px;
+}
+.inputsignup4{
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  color: #ababab;
+  font-size: 14px;
+  height: 45px;
+  outline: medium none;
+  padding: 10px 20px;
+  position: relative;
+  width: 314px;
+}
+.inputsignup4:focus{
+	border-color: #7f7f7f;
+	color:#7f7f7f;
+}
+.inputsignup4:invalid + .labellogin {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.inputsignup4:focus + .labellogin {
+  color: #7f7f7f;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  font-size:11px;
+}
+.resetpasssec {
+  display: inline-block;
+  margin: 5px 0 0 10px;
+}
+.createaccsec {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.createaccbtn {
+  background: #3778b0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 129px;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.termsandcond{
+	font-size:12px;
+	color: #a2a2a2;
+}
+.terms {
+  color: #3778b0;
+  cursor: pointer;
+}
+.conditions{
+	color: #3778b0;
+	cursor: pointer;
+}
+.terms:hover {
+  color: #3778b0;
+  cursor: pointer;
+}
+.conditions:hover{
+	color: #3778b0;
+	cursor: pointer;
+}
+
+/* modal animation center start */
+
+.modal-wide .modal-body {
+	overflow:hidden;
+}
+.modal.modal-wide .modal-content {
+	border-radius:0px;
+}
+
+.modal-wide.modal:before { content: "\200B"; display: inline-block; height: 100%;vertical-align: middle; } 
+.modal-wide .modal-dialog.centered-quiz { display: inline-block; text-align: left; vertical-align: middle; }
+.modal-wide .modal-dialog{ display:inline-block;}
+.modal.modal-wide.fade .modal-dialog {
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	-ms-transform: scale(0.1);
+	transform: scale(0.1);
+	/*top: 40%;*/
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	
+}
+
+.modal.modal-wide.fade.in .modal-dialog {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	opacity: 1;
+}
+.modal.modal-wide{
+	/*overflow: hidden;*/
+    text-align:center;
+}
+::-webkit-input-placeholder {
+    color: #a7a7a7;
+}
+:-moz-placeholder {
+    /* FF 4-18 */
+    color: #a7a7a7;
+	opacity: 1;
+}
+::-moz-placeholder {
+    /* FF 19+ */
+    color: #a7a7a7;
+	opacity: 1;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #a7a7a7;
+}
+.cantfindmail {
+  color: #959595;
+  font-size: 11px;
+  margin-top: 25px;
+  position: absolute;
+  text-align: justify;
+  width: 314px;
+  padding-bottom:60px;
+}
+/* modal animation center end */
+@media only screen and (min-width:300px) and (max-width: 339px) {
+.resetpassbtn {
+  padding: 12px 7px !important;
+}
+}
+
+
+@media only screen and (min-width:300px) and (max-width: 767px) {
+.modal-content ul li a{
+	margin-right:0px;
+}
+.modal-content ul {
+  padding-left: 0px;
+}
+.newloginmodal {
+  margin: 0 auto;
+  width: 100%;
+}
+.loginmodal {
+  min-height: 100%;
+  width: 100%;
+}
+.modal-content ul li:first-child a {
+  margin-right: 50px;
+}
+.modal-content ul li.active a span {
+  border-bottom: 2px solid #3778b0;
+}
+.modalclose {
+  padding: 7px 15px !important;
+}
+.modal-content ul {
+  padding-top: 0px;
+}
+.loginsec {
+  padding-left: 15px;
+}
+.input-wrapper {
+  margin: 0 0 25px;
+  position:relative;
+}
+.labellogin {
+  top: 12px;
+
+}
+.inputlogin {
+  height: 37px;
+  width: 100%;
+}
+.modal-content ul li a {
+  font-size: 18px;
+}
+.forgotpasssec {
+  margin: 0px;
+  width: 100%;
+}
+.startlearningbtn {
+  float:right;
+  padding: 10px 20px;
+  margin: 0px;
+}
+.forgotpasssection {
+  padding-left: 15px;
+}
+.forgotpass-wrapper {
+  margin: 0 0 25px;
+}
+.forgotpass {
+  color: #3778b0;
+  font-size: 14px;
+  margin-top: 7px;
+  position: absolute;
+  cursor: pointer;
+}
+.inputforgotpassemail {
+  height: 37px;
+  width: 100%;
+}
+.changeemail {
+  right: 15px;
+  top: 9px;
+}
+.inputforgotpasspwd {
+  height: 37px;
+  width: 100%;
+}
+.inputforgotpass {
+  height: 37px;
+  width: 100%;
+}
+.resendcode {
+  right: 15px;
+  top: 9px;
+}
+.resetpasssec {
+  margin: 0;
+  width: 100%;
+}
+.resetpassbtn {
+  flaot:right;
+  padding: 12px 17px;
+}
+.successfooter {
+  background: #1ead77 none repeat scroll 0 0;
+  bottom: 0;
+  display: none;
+  margin-top: -1px;
+  padding: 7px 13px;
+  position: absolute;
+}
+.loginemailsuccessresp{
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+}
+.signupsecsec {
+  padding-left: 15px;
+}
+.inputsignup1 {
+  height: 37px;
+  width: 100%;
+}
+.inputsignup2 {
+  height: 37px;
+  width: 100%;
+}
+.inputsignup3 {
+  height: 37px;
+  width: 100%;
+}
+.inputsignup4 {
+  height: 37px;
+  width: 100%;
+}
+.createaccsec {
+  margin: 0px;
+  width: 100%;
+}
+.createaccbtn {
+  float: right;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.cantfindmail {
+  width: 100%;
+}
+
+.modal.modal-wide .modal-dialog { width:100% !important; margin:0px !important; padding:0px; height:100%; }
+	.modal.modal-wide .modal-content {    
+      height: 100%;
+      border-radius: 0;
+      overflow:auto;
+	  overflow-x:hidden;
+}	
+	.modal.modal-wide{ text-align:left;}
+	.modal-wide.modal:before {  display:none; }
+}
+
+@media only screen and (min-width:480px) and (max-width: 480px) {
+.loginmodal {
+  width: 480px;
+}
+.createaccbtn {
+  margin-left: 262px;
+}
+.startlearningbtn {
+  margin-left: 170px;
+}
+.resetpassbtn {
+  margin-left: 293px;
+}
+}
+@media only screen and (min-width:300px) and (max-width: 360px) {
+	.modal.modal-wide.fade.in .modal-dialog {
+    height: 100%;
+	}
+}
+/*@media only screen and (min-width:360px) and (max-width: 360px) {
+.loginmodal {
+  width: 360px;
+}
+.createaccbtn {
+  margin-left: 142px;
+}
+.startlearningbtn {
+  margin-left: 50px;
+}
+.resetpassbtn {
+  margin-left: 173px;
+}
+}
+@media only screen and (min-width:640px) and (max-width: 640px) {
+.loginmodal {
+  width: 640px;
+}
+.createaccbtn {
+  margin-left: 422px;
+}
+.startlearningbtn {
+  margin-left: 330px;
+}
+.resetpassbtn {
+  margin-left: 453px;
+}
+}
+@media only screen and (min-width:767px) and (max-width: 767px) {
+.loginmodal {
+  width: 767px;
+}
+.createaccbtn {
+  margin-left: 229px;
+}
+.startlearningbtn {
+  margin-left: 579px;
+}
+.resetpassbtn {
+  margin-left: 580px;
+}
+}*/

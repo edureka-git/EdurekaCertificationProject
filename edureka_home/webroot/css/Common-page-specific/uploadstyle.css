@@ -1,0 +1,96 @@
+#upload{
+	overflow:hidden;
+}
+
+#drop {
+  border-radius: 3px;
+  border-style: dashed;
+  color: #7f858a;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 70px 9px;
+  border-color: #cccccc;
+  text-align: center;
+}
+#drop a {
+  background-color: #dddddd;
+  border-radius: 0;
+  color: #777777;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 3px;
+  padding: 10px 36px;
+  text-transform: uppercase;
+}
+#drop > p{
+	margin:0;
+	padding:0;
+}
+#drop a:hover{
+    background-color:#dddddd;
+}
+
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+	padding-bottom:12px;
+}
+
+#upload ul li{
+	border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    position: relative;
+}
+#upload ul li input{
+    display: none;
+}
+#upload ul li p {
+  color: #777777;
+  font-size: 13px;
+  font-weight: normal;
+  left: 41px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 89%;
+}
+#upload ul li p .progress{
+	border-radius: 0;
+    height: 4px;
+    margin: 10px 0 0;
+}
+#upload ul li i {
+  color: #7f7f7f;
+  display: inline;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 9px;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+#upload ul li span {
+  cursor: pointer;
+  height: 12px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 15px;
+}
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+}
+

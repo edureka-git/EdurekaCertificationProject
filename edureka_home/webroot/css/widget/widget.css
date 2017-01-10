@@ -1,0 +1,292 @@
+/*User Profile Strength Widget CSS Starts*/
+.inline-block-img {
+    display: inline-block !important;
+}
+.lms-course-marg-btm {
+  margin-bottom: 15px;
+}
+.userproflms > p {
+    margin: 0;
+}
+.padding15 {
+  padding: 15px;
+}
+.padding-btm-9 {
+  padding-bottom: 9px !important;
+}
+.lms-course-widget-bg {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+}
+.lms-course-pad-left-0 {
+  padding-left: 0;
+}
+.img65-60 {
+  border: 1px solid #e8e8e8;
+  height: 60px;
+  width: 65px;
+}
+.lms-invite-hd {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 15px;
+  margin: 0;
+  padding: 15px;
+}
+.btncopytext:focus{
+	color: #3778b0;
+}
+.userproflms > .progress {
+  background: #8ed6bb none repeat scroll 0 0;
+  border-radius: 0;
+  height: 4px;
+  margin: 0 0 6px;
+  width: 130px;
+}
+.progress-green {
+  background-color: #1ead77;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+}
+.text-right {
+  text-align: right;
+}
+.lms-course-user-txt {
+  margin: 5px 0 0;
+}
+.lms-coursehead{
+	position:relative;
+}
+.lms-img-course{
+	width:85px;
+	height:auto;
+}
+.img100{ width:100px; height:100px;}
+.lms-course-widget-content h4{ font-size:16px; font-weight:600;}
+.lms-course-widget-content h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
+.lms-course-widget-content > p{
+	padding-top:13px;
+}
+.ordSum_right{
+  	padding-left: 0px;
+  }
+.course-lms-complete > .course-lms-percent > .percent {
+  height: 80px;
+  margin: 0 auto;
+  width: 80px;
+}
+.course-lms-complete {
+  position: absolute;
+  right: 0;
+}
+.Organizations-txt {
+  color: #418bca;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-left: 15px;
+}
+.Organizations-small-font {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.Organizations-btn {
+  background: #418bca none repeat scroll 0 0;
+  border: 1px solid #84aed9;
+  border-radius: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  padding: 2px 16px 3px;
+  vertical-align: top;
+}
+/* Order Summary Start Learning/Need Assistance Widget Starts*/
+.ordSum_right h4 {
+  border-bottom: 1px solid #dddddd;
+  color: #656565;
+  margin-top: 0;
+  font-size:16px;	
+  padding: 12px 10px;
+}
+.startlearning{
+	margin-bottom:15px;
+}
+.startlearning > span{
+	padding-left: 20px;
+}
+.startlearning > ul {
+  padding: 0 20px 5px;
+}
+.startlearning > ul > li > i{
+	margin:0px 8px 7px 0px;
+}
+.startlearning > ul > li:first-child{
+	margin-top: 8px;
+}
+.Contactuspanel p {
+  color: #444444;
+  display: inline;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 18px 5px 3px;
+}
+.tollfreenmbr{
+	border-right:1px solid #d7d7d7;
+}
+.Contactuspanel {
+	padding-bottom: 15px !important;
+}
+.Contactuspanel > div.usflag {
+	/*border-right: 1px solid #ddd;*/
+	padding: 5px 0px 5px 15px;
+}
+.Contactuspanel > div.usflag img {
+	width: 25px;
+	margin-top: -2px;
+}
+.Contactuspanel > div.indflag img {
+	width: 25px;
+}
+.usflag {
+	padding: 5px ;
+}
+.indflag {
+	padding: 5px 15px;
+}
+.Contactuspanel small {
+	color: #a2a2a2 !important;
+	font-size: 11px !important;
+}
+.salesMail {
+    text-align: center;
+    margin-top: 10px;
+}
+.salesMail a, .salesMail .fa {
+	color:#3978ae;
+}
+.salesMail .fa {
+    font-size: 14px;
+}
+.whitebgwidget {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+}
+/* Order Summary Start Learning/Need Assistance Widget Ends*/
+/* Order Summary Start Learning/Need Assistance Widget Starts */
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+.startlearning > span {
+  display: inline-block;
+}
+.tollfreenmbr{
+	border-right:medium none;
+}
+}
+/* Order Summary Start Learning/Need Assistance Widget Ends*/
+@media only screen and (min-width:300px) and (max-width: 767px) {
+/* Order Summary Start Learning/Need Assistance Widget Starts*/
+.ordSum_right{
+  	padding: 0px;
+  }
+  .ordSum_right h4 {
+  padding: 15px;
+}
+  .startlearning > span {
+  display: inline-block;
+  font-size: 13px;
+}
+.startlearning > ul > li > i {
+  font-size: 13px;
+  margin: 0 8px 7px 0;
+}
+.startlearning > ul > li{
+	font-size:13px;
+}
+.startlearning {
+  margin-bottom: 30px;
+}
+/* Order Summary Start Learning/Need Assistance Widget Ends*/
+
+.img100 {
+  height: 70px;
+  width: 70px;
+}
+.course-lms-complete {
+  position: absolute;
+  right: 0;
+  top: 15px !important;
+  width: 120px;
+}
+.course-lms-complete > .course-lms-percent > .percent {
+  height: 55px;
+  margin: 0 auto;
+  width: 55px;
+}
+.course-lms-complete {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 90px;
+}
+.userproflms-edit{
+	float:right;
+}
+}
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.percent {position:relative;text-align: right;}
+.userproflms-edit{
+	float:right;
+}
+.tollfreenmbr{
+	border-right:medium none;
+}
+
+/*User Profile Strength Widget CSS Ends*/
+
+/*Referral Widget CSS Starts*/
+.lms-invite-hd {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 15px;
+  margin: 0;
+  padding: 15px;
+}
+.lms-referal-link > p {
+  width: 50%;
+  word-wrap: break-word;
+}
+.lms-referal-link{ border:1px solid #bcbcbc; background:#ffffff; padding:10px 17px; margin-bottom:6px;}
+.lms-course-btn-fill{ background:#3778b0; border:1px solid #306a9b; text-transform:uppercase; font-size:14px; border-radius:0px !important;}
+.lms-course-btn-fill.white-bgr{ background:#ffffff; color:#418bca; border:1px solid #418bca;}
+}
+@media only screen and (min-width:300px) and (max-width: 767px) {
+.lms-referal-link {
+  background: #ffffff none repeat scroll 0 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding:0;
+  border:0;
+}
+
+}
+@media only screen and (min-width:992px) and (max-width: 1199px){
+	.lms-referal-link {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none !important;
+  font-weight: bold !important;
+  margin-bottom: 6px !important;
+  padding: 10px 0 !important;
+}
+}
+/*Referral Widget CSS Ends*/
+

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+/*New Css for success msg*/
+.successmsgfeedback {
+  text-align: center;
+  color: #444444;
+    font-size: 15px;
+	display: none;
+}
+.successmsgfeedback > i.icon-tick {
+	color: #1ead77;
+    display: inline-block;
+    font-size: 55px;
+    margin-bottom: 29px;
+}
+.successmsgfeedback > p {
+  padding: 0 20px;
+  margin-bottom: 29px;
+}
+
+/*New Css for success msg*/
+.cus-info-pad30{ padding:30px;}
+.cus-info-hd{ margin-top:0px;}
+.cus-info-form label{ text-align:left !important; font-size:14px; color:#444444; font-weight:normal; }
+.cus-info-form input.form-control{ border:1px solid #cccccc; border-radius:2px; box-shadow:none; color:#777777;}
+.cus-info-form textarea{ border:1px solid #cccccc; border-radius:2px; box-shadow:none; width:100%; resize:none; padding:10px; }
+.cus-info-form label .txt-color{ color:#777777;}
+.cus-info-form .form-group{ margin-bottom:25px;}
+.cus-info-form .form-group.last-item{ margin-bottom:0px;}
+.cus-info-form .form-group.name-item{ margin-bottom:15px;}
+
+
+.support-drop > button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  box-shadow: none;
+  color: #777777;
+  font-size: 14px;
+  padding: 5px 12px;
+  text-align: inherit;
+  width: 100%;
+}
+.support-drop > button:focus{ box-shadow:none;}
+.support-drop > button .right-align{ position:absolute; right:12px; top:5px; left:auto; font-size:22px; }
+.support-drop.time-change > button .right-align{  right:3px; }
+
+.support-drop.time-change .dropdown-menu{ min-width:auto;}
+
+.support-drop > ul.support-drop-list {
+  border-radius: 0;
+  border-top: 0 none;
+  margin-top: 0;
+  width: 100%;
+  padding-bottom: 0px;
+  padding-top:0px;
+}
+.timesection{
+	margin-top: 15px;
+}
+.colon{
+	margin-top: 15px;
+}
+.minbutton {
+  float: right;
+  font-size: 13px !important;
+}
+.hrbutton{
+	font-size: 13px !important;
+}	
+.support-drop > ul.support-drop-list li a{ padding:8px 13px; border-bottom:1px solid #cccccc; font-size:13px; display:block; color:#777777;}
+.support-drop > ul.support-drop-list li a:hover{ color:#3778b0; background:#ffffff;}
+.support-drop-list {
+    max-height: 210px;
+    min-height: 40px;
+}
+.datepickcal {
+  width: 100%;
+}	
+.datecal{
+	height: 32px;
+		font-size: 13px;
+}
+.calend{
+	padding: 6px 8px;
+
+}
+.datepicker{ min-width:250px;}
+.cus-info-nopadrit{ padding-right:0px;}
+.cus-info-nopadleft{ padding-left:0px;}
+.cus-info-country .custom-bootstrap .form-control{ width:100% !important;}
+.cus-info-country .custom-bootstrap .btn-default {
+  background: #ffffff none repeat scroll 0 0 !important;
+  border-radius: 2px !important;
+  float: right;
+  padding: 6px 12px;
+  width: 100%;
+}
+.support-drop > button:hover,
+.support-drop > button:focus {
+  color: #777777;
+}
+.errormsgfeedback{
+	margin:10px 0px;
+	font-size: 12px;
+	color: #f14950;
+	font-weight:400;
+	}
+/*.feedbckdate{
+	display: none;
+}
+.feedbcktzone{	display: none;}
+.feedbcktime{	display: none;}*/
+.marg-btm-15{ margin-bottom:15px;}
+.cus-info-submit{ padding:6px 20px; border-radius:2px; text-transform:uppercase;}
+
+
+
+.checkbox-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius:2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\2713";
+    /*font-family: 'icomoon';*/
+    display:inline-block; 
+    color: #777;
+	vertical-align: middle;
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+.cus-info-check label{ padding-left:0px;}
+.cus-info-form input.form-control.time-xs{ text-align:center;}
+
+
+@media (max-width:767px){
+	
+	.support-drop.time-change > button .right-align{  display:none; }
+	.support-drop > button{ font-size:13px;}
+	.support-drop.time-change > button{ padding-left:6px; }
+	.cus-info-form label{ font-size:13px;}
+	.cus-info-form .form-group{ margin-bottom:15px;}
+	.cus-info-country .custom-bootstrap .btn-default{ background:#ffffff !important; border-radius:2px !important; border:1px solid #cccccc !important; box-shadow:none !important;}
+	.cus-info-country .country-drop-btn .dropdown-menu{  position:relative; top:0;}
+	.cus-info-country .country-drop-btn .bootstrap-select.show-menu-arrow.open .dropdown-menu{ display:block;}
+	.cus-info-country .custom-bootstrap .dropdown-menu.inner{ max-height:inherit !important;}
+	.cus-info-form .form-group.name-item{ margin-bottom:10px;}
+	.cus-info-pad30{ padding:15px;}
+	.cus-info-hd{ padding-bottom:10px; border-bottom:1px solid #ccc;}
+	.cus-info-form input.form-control.time-xs{text-align:left;}
+	.successmsgfeedback > i.icon-tick {
+    margin-left: 100px;
+}
+}
+@media (max-width:330px){
+	.cus-info-form input.form-control.time-xs{ padding:6px 6px;}
+	.support-drop.time-change > button{ padding:6px 2px;}
+}

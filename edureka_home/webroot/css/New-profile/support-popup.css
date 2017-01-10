@@ -1,0 +1,200 @@
+.bv-no-label.fa{
+    content: "" !important;
+    display: none !important;
+}
+.support-question-popup .feed-element,.support-question-popup .media-body {
+    overflow: visible !important;
+}
+ol {
+    counter-reset:li; /* Initiate a counter */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+}
+.special_ol > li:before {
+    background: none repeat scroll 0 0 #f3f3f3;
+    border-radius: 17px;
+    border-top: 0 solid #f3f3f3;
+    box-sizing: border-box;
+    color: #777;
+    content: counter(li, decimal);
+    counter-increment: li;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
+    left: -3em;
+    margin-right: 8px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 2em;
+}
+#uploadifive-questionfiles ,#uploadifive-assignmentfiles {
+    position: absolute !important;
+    top: 13px;
+    height: 20px !important;
+    width: 105px !important;
+}
+#uploadifive-questionfiles input,#uploadifive-assignmentfiles input{
+    cursor: pointer;
+}
+
+/*.file-attach {
+  margin-left: 118px;
+  margin-top: -34px;
+  position: absolute;
+  font-size: 15px;
+  cursor:pointer;
+}*/
+.file-attach {
+    clear: both;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 41px;
+}
+
+.file-attach .fa {
+    font-size: 19px !important;
+}
+.file-attach-forum {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 119px;
+}
+.file-attach-popup {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 41px;
+    margin-top: 0;
+    position: absolute;
+    right: 127px;
+    z-index: 9;
+}
+
+/*    .progress{
+            float: right;
+            margin-left: 7px;
+            margin-top: 4px;
+            width: 60px;
+        }*/
+#questionfilequeue,#answerfilequeue {
+    /*border: 1px solid #E5E5E5;*/
+    max-height: 130px;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 0 3px 3px;
+    /*width: 300px;*/
+}
+.uploadifive-queue-item {
+    background-color: #F5F5F5;
+    border-bottom: 1px dotted #D5D5D5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font: 12px Arial, Helvetica, Sans-serif;
+    margin-top: 3px;
+    padding: 3px 0;
+}
+.uploadifive-queue-item .close {
+    /*background: url('uploadifive-cancel.png') 0 0 no-repeat;*/
+    display: block;
+    float: right;
+    height: 16px;
+    /*text-indent: -9999px;*/
+    width: 16px;
+}
+.uploadifive-queue-item .progress {
+    border: 1px solid #D0D0D0;
+    height: 3px;
+    margin-top: 5px;
+    width: 100%;
+}
+.uploadifive-queue-item .progress-bar {
+    background-color: #0072BC;
+    height: 3px;
+    width: 0;
+}
+.answer-file-attach-popup {
+    right: 186px;
+}
+/*fix asper himanshu requirement*/
+.summernote-customtop {
+    float: left;
+    width: 100%;
+}
+.note-editor {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.has-feedback .chosen-container,.has-feedback .chosen-drop,.has-feedback .chosen-single {
+    min-width: 240px !important;
+}
+/*end fix asper himanshu requirement*/
+.img30 {
+    height: 30px;
+    width: 30px;
+}
+.comment-panel{
+    padding-bottom:0;
+}
+.border-bt {
+    border-bottom: 1px solid #ddd !important;
+}
+.padding-bt-8 {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.hidden-comments{
+    display:none;
+}
+
+.question-asked {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 6px 0 0;
+}
+.img60 {
+    height: 60px;
+    width: 60px;
+}
+/*.community-ques-wrapper.animated {
+  margin-top: 1px;
+}*/
+.answers-cus .uploadifive-button {
+    display: inline-block;
+    height: 18px !important;
+    width: 80px !important;
+}
+
+#forum-discussion .hover-bg-gray, #main-question-content-wrapper .hover-bg-gray {
+    padding-left: 27px;
+}
+
+/*.best_ans {
+  background-color: #fcf8e3;
+}*/
+.label[href]:hover, .label[href]:focus {
+    color: #3c763d;
+}
+.question-wrapper-element a:hover, .question-wrapper-element a:focus{
+    text-decoration:none;
+}
+
+
+
+
+@media all and (max-width:767px){
+    .form-inline-community {
+        min-width: inherit;
+    }
+    .answers-cus {
+        min-height:inherit;
+    }
+}
+@media all and (max-width:550px){
+    .answers-cus .uploadifive-button {
+        width: 47px !important;
+    }
+}

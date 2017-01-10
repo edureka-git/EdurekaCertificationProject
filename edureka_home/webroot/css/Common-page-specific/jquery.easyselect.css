@@ -1,0 +1,146 @@
+/*! 
+	jQuery easySelect 1.0.7 - http://tameraydin.github.com/jquery-easyselect/
+*/
+
+/* 
+	Base Styles
+*/
+.easyselect-field-wrapper {
+  position: relative;
+}
+.easyselect-field {
+  margin: 0;
+}
+.easyselect-list-wrapper {
+  /* IE7 fix */
+  clear: left;
+}
+.easyselect-list {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+.easyselect-list li {
+  background: #FFF;
+  cursor: pointer;
+  display: none;
+}
+.easyselect-list li.filtered {
+  display: block;
+}
+.easyselect-list li.active {
+  background: #333;
+  color: #FFF;
+}
+.easyselect-box {
+  background: #999;
+  padding: 10px;
+}
+.easyselect-box-item {
+  background: #CCC;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 3px 10px;
+}
+
+/* 
+	Extras
+*/
+.easyselect-container {
+  font-family: sans-serif;
+  margin-top: 3px;
+  padding-bottom: 8px;
+}
+.easyselect-field-wrapper {
+  z-index: 2;
+}
+.easyselect-field {
+  border: 4px solid #336699;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 4px 6px;
+  width: 300px;
+}
+.easyselect-list {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-left: 4px;
+  width: 312px;
+  z-index: 2;
+}
+.easyselect-list li {
+  border-bottom: 1px solid #EAEFFA;
+  padding: 3px 5px;
+  width: 302px;
+}
+.easyselect-list li.active {
+  background: #336699;
+}
+.easyselect-box {
+  background: none repeat scroll 0 0 #fff;
+  padding: 0 8px 0px 0;
+  position: relative;
+}
+.easyselect-box.empty {
+  display: none;
+}
+.easyselect-box:before,
+.easyselect-box:after {
+  content: "";
+  display: table;
+}
+.easyselect-box:after {
+  clear: both;
+}
+.easyselect-box-item {
+  background: #f3f3f5 none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  color: #aaaaab;
+  float: left;
+  line-height: 1em;
+  margin: 8px 0 0 8px;
+  text-decoration: none;
+  font-family: Open Sans;
+}
+.easyselect-box-item > span {
+  color: #bbb;
+  font-size: 11px;
+}
+.easyselect-box-item:hover {
+  border-color: #336699;
+}
+
+/*custom*/
+.easyselect-field{
+	display:none;
+	visibility:hidden;
+}
+#community-select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-height: 162px;
+  min-width: 690px;
+  z-index: 1;
+  overflow: auto !important;
+}
+.easyselect-box{
+	cursor:pointer;
+}
+.easyselect-box-item:hover{
+	text-decoration:none;
+	border:1px solid #e8e8e8;
+	color:#aaaaab;
+}
+#community-select > option {
+  margin-bottom: 5px;
+  padding: 4px 12px;
+}
+@media only screen and (max-width: 767px) {
+#community-select {
+  min-width: 690px;
+}
+}
